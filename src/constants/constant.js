@@ -6,9 +6,9 @@ export const AboutPage = {
   introHeading: "I'm Sagar",
   title: "Full Stack Developer",
   description:
-    "I am a Full-Stack developer based in Pune, India. I am an Information Technology undergraduate from SPPU. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.",
+    "I am a Full-Stack developer based in Chandigarh, India. I am an Information Technology undergraduate from Panjab University. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.",
   age: "25",
-  email: "sagar.minurajput23@gmail.com",
+  email: "ssagar9495@gmail.com",
   phone: `+91 9915944300`,
   place: `Chandigarh, India 160014`,
 };
@@ -144,7 +144,7 @@ export const footerLeftContainer = {
 export const footerRightContainer = {
   heading: "Contact Info",
   phoneNumber: "+91 9915944300",
-  email: "sagar@gmail.com",
+  email: "ssagar9495@gmail.com",
   location: "Chandigarh, India 160014",
 };
 
