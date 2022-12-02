@@ -1,0 +1,90 @@
+.mainContainer {
+  background-color: white;
+  padding: 0px 10px 10px 10px;
+  min-height: 90vh;
+}
+
+.aboutHeading {
+  padding: 20px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aboutHeading {
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  span {
+    color: purple;
+    padding-left: 10px;
+  }
+}
+.leftSideBox {
+  display: flex;
+  justify-content: center;
+  // background-color: red;
+  padding: 80px 0px 20px 0px;
+}
+
+.rightSideBox {
+  // background-color: blue;
+  padding: 80px 0px 20px 0px;
+}
+
+.imageDiv {
+  // background-color: yellow;
+  border-radius: 5px;
+}
+
+.aboutHeadText {
+  font-size: 27px;
+  font-weight: 700;
+}
+
+.aboutImage {
+  cursor: pointer;
+  border-radius: 5px;
+
+  filter: gray; /* IE6-9 */
+  -webkit-filter: grayscale(1); /* Google Chrome, Safari 6+ & Opera 15+ */
+  filter: grayscale(1); /* Microsoft Edge and Firefox 35+ */
+
+  &:hover {
+    -webkit-filter: grayscale(0);
+    filter: none;
+    box-shadow: 7px 0px 10px lightgray;
+  }
+}
+
+.aboutParaGraph {
+  font-size: 14px;
+  padding-top: 10px;
+  font-weight: 600;
+}
+
+.buttonContainer {
+  padding: 50px 0px 10px 0px;
+}
+
+.tagText {
+  font-weight: 700;
+  color: #011cf5;
+  span {
+    color: black;
+    font-size: 14px;
+
+    font-weight: 600;
+    padding-left: 5px;
+  }
+}
+
+.userImage {
+  height: 32px;
+  width: 32px;
+  margin-right: 10px;
+}
+
+.titleText {
+  font-size: 16px;
+  font-weight: 600;
+}

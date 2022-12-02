@@ -1,0 +1,48 @@
+.boxContainer {
+  margin-top: 7px;
+  margin-bottom: 7px;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+// .cardStyles {
+//   border-radius: 5px;
+//   background-color: #050a30;
+//   height: 50%;
+//   padding-bottom: 5px;
+// }
+
+.cardImage {
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  opacity: 95%;
+  overflow: hidden;
+  width: 100%;
+  height: 0;
+  transition: 0.5s ease;
+}
+.boxContainer:hover .overlay {
+  height: 70%;
+}
+
+.titleStyles {
+  background-color: #d69b2e;
+  color: white;
+  padding: 10px 10px 10px 10px;
+}
+
+.description {
+  padding: 2px 10px 25px 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+.buttonStyles {
+  padding: 2px 10px 0px 10px;
+}

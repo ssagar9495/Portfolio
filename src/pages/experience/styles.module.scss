@@ -1,0 +1,60 @@
+.mainContainer {
+  background-color: white;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  min-height: 90vh;
+}
+
+.aboutHeading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: black;
+  font-size: 30px;
+  align-items: center;
+
+  font-weight: 700;
+  span {
+    color: purple;
+    padding-left: 10px;
+  }
+}
+.textStyle {
+  padding-left: 9px;
+}
+
+.buttonContainer {
+  padding: 10px 10px 10px 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.middleBox {
+  justify-content: space-between;
+  // background-color: red;
+  display: flex;
+  align-items: center;
+  flex: 1;
+  flex-wrap: wrap;
+  padding: 30px 100px 30px 100px;
+}
+
+.rowStyles {
+  display: flex;
+  flex-direction: column;
+  border-left: 8px solid #050a30;
+  padding-left: 16px;
+  padding-bottom: 20px;
+}
+@media only screen and (max-width: 900px) and (min-width: 350px) {
+  .middleBox {
+    justify-content: space-between;
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 30px 10px 30px 10px;
+  }
+}

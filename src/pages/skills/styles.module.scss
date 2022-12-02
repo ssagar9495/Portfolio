@@ -1,0 +1,67 @@
+.mainContainer {
+  background-color: #3b3bb6;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  min-height: 90vh;
+}
+
+.aboutHeading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: White;
+  font-size: 30px;
+  font-weight: 700;
+  align-items: center;
+
+  span {
+    color: #d69b2e;
+    padding-left: 10px;
+  }
+}
+
+.skillsBoxContainer {
+  padding: 30px 100px 10px 100px;
+}
+.skillsInnerContainer {
+  flex: 1;
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 20px 20px 20px;
+  border-radius: 5px;
+  background-color: #000c66;
+}
+.skillMiddleContainer {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  display: flex;
+  justify-content: space-between;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.paraDiv {
+  padding: 20px 20px 20px 20px;
+  // background-color: red;
+  box-sizing: border-box;
+}
+
+.textStyle {
+  padding-left: 9px;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 350px) {
+  .skillsInnerContainer {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    flex-wrap: wrap;
+  }
+  .skillsBoxContainer {
+    padding: 30px 10px 10px 10px;
+  }
+}

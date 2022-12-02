@@ -1,0 +1,41 @@
+.nabBar {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: space-between !important;
+  padding-left: 30px !important;
+  padding-right: 20px !important;
+  background-color: #ffffff !important;
+  position: fixed !important;
+  z-index: 2;
+  box-shadow: 0px 0px 10px lightgray;
+}
+.rightConatiner {
+  justify-content: end !important;
+}
+
+.navListing {
+  padding-left: 0px !important;
+  padding-right: 23px !important;
+  // font-family: sans-serif !important;
+  font-weight: 600 !important;
+  color: black !important;
+}
+.logoStyles {
+  height: 35px;
+  width: 35px;
+  cursor: pointer;
+}
+.bottomBorder {
+  padding-bottom: 8px;
+  border-bottom: 3px solid white !important;
+
+  &:hover {
+    border-bottom: 3px solid #011cf5 !important;
+    color: #011cf5 !important;
+  }
+}
+
+.activeTab {
+  color: red !important;
+  // background-color: red !important;
+}

@@ -1,0 +1,71 @@
+.mainContainer {
+  background-color: rgb(218, 233, 242);
+  padding: 10px 100px 50px 100px;
+}
+.aboutHeading {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+  font-weight: 700;
+  span {
+    color: purple;
+    padding-left: 10px;
+  }
+}
+
+.middleContainer {
+  border-radius: 5px;
+  margin-top: 20px;
+  background-color: white;
+}
+.rowStyles {
+  text-align: center;
+  margin: 0px !important;
+  border-radius: 5px;
+  box-shadow: 6px 8px 10px lightgray;
+}
+
+.formContainer {
+  display: flex;
+  flex-direction: column !important;
+
+  border-radius: 5px;
+  // background-color: green;
+  padding: 30px 50px 30px 50px !important;
+}
+.contactImage {
+  height: 100%;
+  width: 50%;
+}
+
+.imageContainer {
+  border-radius: 5px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.buttonContainer {
+  display: flex;
+  justify-content: end;
+}
+
+.textStyle {
+  padding-left: 9px;
+}
+
+.errorColor {
+  color: red !important;
+  display: flex;
+  justify-content: end;
+  font-size: 10px;
+  height: 12px;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 350px) {
+  .mainContainer {
+    background-color: rgb(218, 233, 242);
+    padding: 10px 10px 50px 10px;
+  }
+}

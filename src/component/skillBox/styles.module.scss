@@ -1,0 +1,29 @@
+.skillsBoxConatiner {
+    background-color: #050A30;
+    padding: 60px 50px 50px 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 12%;
+    height: 20px;
+    border-radius: 10px;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    flex-direction: column;
+  
+    cursor: pointer;
+    &:hover {
+      background-color: rgb(31, 30, 30);
+      box-shadow: 0px 5px 7px #050A30;
+    }
+  }
+
+  .imageStyles
+  {
+   height: 55px;
+  }
+  .textStyle
+  {
+    padding-top: 10px;
+  }

@@ -1,0 +1,47 @@
+.socialIcon {
+  height: 17px;
+  width: 17px;
+}
+.socialIconRow {
+  width: 40%;
+
+  justify-content: space-between;
+  display: flex;
+}
+.socialIconConatiner {
+  padding: 20px 20px;
+  background-color: #050a30;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #4169e1;
+  }
+}
+
+.footerStyles {
+  padding: 15px 15px;
+  background-color: #05445e !important;
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  &:hover {
+    background-color: #4169e1;
+  }
+}
+
+.iconColor {
+  color: skyblue;
+}
+
+.iconHover {
+  color: white !important;
+}

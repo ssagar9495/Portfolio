@@ -1,0 +1,35 @@
+.buttonStyles {
+  color: white;
+  background-color: #011cf5;
+  font-weight: 500;
+  padding: 8px 22px 8px 22px;
+  border-radius: 13px;
+  border: none;
+  display: flex;
+  align-items: center;
+  box-shadow: 2px 6px 10px lightblue;
+  &:hover {
+    background-color: #050a30;
+  }
+}
+.imgesStyles {
+  padding-left: 6px;
+}
+
+.rectangleStyles {
+  border-radius: 5px !important;
+}
+.iconStyles {
+  transition: transform 0.3s ease-out;
+}
+.WorkButton {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  box-shadow: none;
+
+  &:hover {
+    background-color: white;
+    color: black;
+  }
+}

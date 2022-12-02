@@ -1,0 +1,71 @@
+.mainHomeContainer {
+  // height: 100vh;
+  height: 92vh;
+}
+.HeadingText {
+  font-size: 50px;
+  font-weight: 700;
+  color: #050a30;
+
+  span {
+    font-weight: 700;
+    color: #d69b2e;
+  }
+}
+
+.rightBox {
+  padding: 140px 10px 140px 10px;
+}
+
+.leftBox {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  padding-top: 134px;
+  // padding-bottom: 100px;
+}
+.headingImage {
+  box-shadow: 2px 4px 12px darkkhaki;
+  background-color: gold;
+  height: 76%;
+  width: 65%;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1px 1px 1px 1px;
+  cursor: pointer;
+  &:hover {
+    box-shadow: 2px 4px 20px darkkhaki;
+    border: 3px solid gold;
+  }
+}
+
+.movingText {
+  display: flex;
+  font-weight: 500;
+  font-size: 24px;
+  padding: 10px 0px 10px 0px;
+}
+.fixedText {
+  padding-right: 6px;
+}
+.aboutButton {
+  padding: 15px 10px 10px 0px;
+}
+.socialContainer {
+  padding: 25px 10px 0px 0px;
+}
+.typeWriterText {
+  color: brown;
+}
+
+.imageStyle {
+  height: 50%;
+  width: 50%;
+}
+@media only screen and (max-width: 990px) {
+  .leftBox {
+    display: none;
+  }
+}

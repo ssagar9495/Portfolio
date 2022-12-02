@@ -1,0 +1,47 @@
+.experienceCard {
+  margin-top: 10px !important;
+  width: 50% !important;
+  padding: 20px 30px 20px 30px;
+  background-color: #d69b2e;
+  border-radius: 3px;
+  position: relative;
+}
+.experienceCard::after {
+  content: "";
+  width: 0px;
+  height: 0px;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid transparent;
+  border-right: 10px solid #d69b2e;
+  position: absolute;
+  left: -3%;
+  top: 50%;
+}
+
+.companyDiv {
+  color: #050a30;
+  font-size: 20px;
+  font-weight: 700;
+}
+.techDiv {
+  color: #050a30;
+  font-size: 16px;
+  font-weight: 600;
+}
+.yearDiv {
+  color: #050a30;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+@media only screen and (max-width: 900px) and (min-width: 350px) {
+  .experienceCard {
+    width: 100% !important;
+    margin-top: 10px !important;
+    padding: 20px 30px 20px 30px;
+    background-color: #d69b2e;
+    border-radius: 3px;
+    position: relative;
+  }
+}

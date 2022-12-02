@@ -1,0 +1,61 @@
+.educationCard {
+  display: flex;
+  background-color: white;
+  border-radius: 5px;
+  width: 60%;
+  box-shadow: 2px 6px 10px lightgray;
+
+  cursor: pointer;
+
+  &:hover {
+    box-shadow: 2px 6px 10px gray;
+  }
+}
+
+.leftSide {
+  width: 25%;
+  // background-color: green;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  position: sticky;
+}
+.rightSide {
+  width: 75%;
+  padding: 20px 20px 20px 20px;
+  // background-color: blue;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.insituteImage {
+  height: 100%;
+  width: 100%;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.headingCss {
+  font-size: 22px;
+  color: #050a30;
+}
+.yearCss {
+  color: darkgreen;
+}
+.collegeStyles {
+  font-weight: 500;
+  font-size: 16px;
+}
+@media only screen and (max-width: 900px) and (min-width: 350px) {
+  .educationCard {
+    display: flex;
+    background-color: white;
+    border-radius: 5px;
+    width: 100%;
+    box-shadow: 2px 6px 10px lightgray;
+
+    cursor: pointer;
+
+    &:hover {
+      box-shadow: 2px 6px 10px gray;
+    }
+  }
+}
