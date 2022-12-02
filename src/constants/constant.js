@@ -6,7 +6,7 @@ export const AboutPage = {
   introHeading: "I'm Sagar",
   title: "Full Stack Developer",
   description:
-    "I am a Full-Stack developer based in Chandigarh, India. I am an Information Technology undergraduate from Panjab University. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.",
+    "I am a Full-Stack developer based in Chandigarh, India. I am an Information Technology postgraduate from Panjab University. I am very passionate about improving my coding skills & developing applications & websites. I build WebApps and Websites using MERN Stack. Working for myself to improve my skills. Love to build Full-Stack clones.",
   age: "25",
   email: "ssagar9495@gmail.com",
   phone: `+91 9915944300`,
